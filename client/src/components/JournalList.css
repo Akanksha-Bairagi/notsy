@@ -1,0 +1,55 @@
+/* src/components/JournalList.css */
+.journal-list {
+    margin-top: 20px ;
+    padding: 20px;
+    background-color: #F0F8FF !important; /* Light background color */
+}
+
+.grid {
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.journal-item {
+    text-decoration: none;
+    color: #13274F !important; /* Text color for journal items */
+    border: 1px solid #4B9CD3 !important; /* Border color for items */
+    border-radius: 8px; /* Rounded corners for items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    display: block;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    padding: 0;
+    background: #F0F8FF !important; /* Background color matching the container */
+}
+
+.journal-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the item on hover */
+}
+
+.journal-item h2 {
+    font-size: 1.2em !important; /* Adjust font size for better visibility */
+    margin: 10px 0; /* Space around the heading */
+    color: #13274F !important; /* Text color for headings */
+}
+
+.journal-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.create-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4B9CD3 !important; /* Link color matching the border */
+    font-size: 1.1em; /* Slightly larger font size for visibility */
+}
+
+.create-link:hover {
+    color: #13274F !important; /* Darker color on hover */
+}

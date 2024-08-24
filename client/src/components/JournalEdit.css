@@ -1,0 +1,90 @@
+/* src/components/JournalDetail.css */
+.journal-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between sections */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #F0F8FF !important; /* Light background color */
+}
+
+.journal-header {
+    text-align: center; /* Center-aligns the title */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #4B9CD3 !important; /* Border with specified color */
+    padding-bottom: 10px; /* Adds space below the header */
+}
+
+.journal-header h1 {
+    font-size: 2.5em !important; /* Increased font size for prominence */
+    margin: 0;
+    color: #13274F !important; /* Text color for headings */
+    font-weight: bold !important; /* Make the heading bold */
+}
+
+.journal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between content sections */
+    padding: 10px;
+    border: 1px solid #4B9CD3 !important; /* Borders with specified color */
+    border-radius: 8px;
+    background-color: #F0F8FF !important; /* Background color matching main container */
+    overflow: hidden;
+}
+
+.image-gallery {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling if images overflow */
+    gap: 10px; /* Adds space between images */
+    padding: 10px;
+}
+
+.image-card {
+    flex: 0 0 auto; /* Ensures image cards don't shrink */
+    width: 100%; /* Ensure images fill the container width */
+    max-width: 300px; /* Set a max width for the image cards */
+    box-sizing: border-box;
+}
+
+.image-card img {
+    width: 100%; /* Ensure image fits within its card */
+    height: auto; /* Keeps image aspect ratio */
+    border-radius: 8px;
+    display: block; /* Removes extra space below image */
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.todo-list h2 {
+    margin: 0;
+    font-size: 1.5em !important; /* Adjusted font size for readability */
+    color: #13274F !important; /* Text color for subheadings */
+}
+
+.journal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center-aligns the buttons */
+    margin-top: 20px;
+}
+
+.journal-actions .button {
+    background-color: #4B9CD3 !important; /* Button background color */
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Georgia', serif !important; /* Matching font style for buttons */
+}
+
+.journal-actions .button:hover {
+    background-color: #13274F !important; /* Darker button color on hover */
+}

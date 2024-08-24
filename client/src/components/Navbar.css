@@ -1,0 +1,47 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: sticky; /* or position: fixed; */
+  top: 0;
+  width: 100%;
+  background-color: #13274F; /* Dark blue background for the navbar */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Space between links and buttons */
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold; /* Make the links bold */
+  margin: 0 15px; /* Space between links */
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.navbar-button {
+  background-color: #4B9CD3; /* Blue background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold; /* Make the button text bold */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,107 @@
+/* Ensure the container takes full viewport height */
+.journal-detail {
+    padding: 20px;
+    background-color: #F0F8FF !important; /* Light background color */
+    min-height: 100vh;
+    box-sizing: border-box;
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    font-family: 'Georgia', serif !important; /* Romantic, elegant font style */
+}
+
+.journal-header {
+    margin-top: 50px; /* Adjust as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the title */
+    background-color: #fff !important; /* Background color for header */
+    border-bottom: 3px solid #4B9CD3 !important; /* Borders with specified color */
+    position: relative; /* Ensure it's positioned relative to its container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important; /* Optional: add a subtle shadow for depth */
+}
+
+.journal-header h1 {
+    margin: 0;
+    font-size: 3rem !important; /* Increased font size for better prominence */
+    font-weight: bold !important; /* Make the heading bold */
+    color: #13274F !important; /* Text color for headings */
+}
+
+.journal-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.image-gallery {
+    flex: 2; /* Grow more to fit available space */
+    min-width: 300px; /* Optional: set a minimum width */
+    border: 1px solid #4B9CD3 !important; /* Borders with specified color */
+}
+
+.image-carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.image-card {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.todo-list {
+    flex: 1; /* Grow to fit available space */
+    margin-top: 20px;
+    min-width: 200px; /* Optional: set a minimum width */
+}
+
+.todo-list h2 {
+    margin-top: 0;
+    font-size: 1.5rem !important; /* Make headings in todo list slightly larger */
+    color: #13274F !important; /* Text color for subheadings */
+}
+
+.todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #13274F !important; /* Text color for list items */
+}
+
+.todo-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.journal-actions {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4B9CD3 !important; /* Button background color */
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem !important;
+    margin-right: 10px;
+    font-family: 'Georgia', serif !important; /* Matching font style for buttons */
+}
+
+.button:hover {
+    background-color: #13274F !important; /* Darker button color on hover */
+}

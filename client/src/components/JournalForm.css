@@ -1,0 +1,104 @@
+/* src/components/JournalForm.css */
+.journal-form-container {
+  padding: 200px;
+  max-width: 1200px;
+  margin-top: 20px ; /* Add margin to the top and bottom */
+  background-color: #F0F8FF !important; /* Light background color */
+  box-sizing: border-box;
+}
+
+.journal-form-container h1 {
+  margin-top: 20px ;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #13274F !important; /* Text color for heading */
+  font-size: 2.5em !important; /* Font size for prominence */
+  font-weight: bold !important; /* Make the heading bold */
+}
+
+.journal-form-content {
+  margin-top: 20px ;
+  display: flex;
+  gap: 20px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
+
+.left-section label,
+.right-section label {
+  display: block;
+  margin-bottom: 20px;
+  color: #13274F !important; /* Text color for labels */
+}
+
+.left-section textarea {
+  width: 100%;
+  height: 150px; /* Adjust as needed */
+  border: 1px solid #4B9CD3 !important; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside textarea */
+  box-sizing: border-box;
+}
+
+.images-section label,
+.todo-section label {
+  display: block;
+  color: #13274F !important; /* Text color for labels */
+}
+
+.images-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.images-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-list img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Georgia', serif !important; /* Matching font style for buttons */
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4B9CD3 !important; /* Button background color */
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1rem !important; /* Font size for buttons */
+}
+
+button[type="submit"]:hover {
+  background-color: #13274F !important; /* Darker button color on hover */
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #13274F !important; /* Text color for list items */
+}
